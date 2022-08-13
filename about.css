@@ -1,0 +1,72 @@
+.logo-container h1 {
+    font-size: 48px;
+    margin: 10px 0px 0px 20px;
+    min-height: 5vh;
+}
+
+.logo-container a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.main {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.main h1 {
+    font-size: 64px;
+}
+
+.main p {
+    font-size: 48px;
+    margin-top: 50px;
+    line-height: 60px;
+}
+
+
+.rainbow-bar {
+    background-image: linear-gradient(to left, 
+    #86007D, 
+    #0000F9, 
+    #008018, 
+    #FFFF41, 
+    #FFA52C, 
+    #FF0018,
+    #9E6240,
+    #9E6240,
+    #000000,
+    #000000);
+
+    padding: 5px;
+
+}
+
+
+/* iPhone 6/7/8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    .logo-container h1 {
+        font-size: 48px;
+    }
+
+    .main h1 {
+        font-size: 36px;
+    }
+
+    .main p {
+        font-size: 24px;
+        margin-top: 40px;
+        line-height: 50px;
+    }
+
+    .top-object {
+        height: 40%;
+        opacity: 20%;
+    }
+    .btm-object {
+        display: none;
+    }
+}
