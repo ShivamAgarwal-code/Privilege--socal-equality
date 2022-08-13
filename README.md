@@ -1,6 +1,6 @@
 # Privilege
 
-A quiz web application to educate users on their privilege and what to do about their privilege.
+A quiz web application to educate users on their privilege and what to do about their privilege. I made this project on Katyyouthhacks'22. Theme of the hackathon is to solve social inequality through web or app based model/prototype...
 
 Check out the site:
 https://privilege-heroku.herokuapp.com/
